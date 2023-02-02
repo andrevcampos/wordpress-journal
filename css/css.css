@@ -1,0 +1,89 @@
+.journalbox{
+  margin-top:50px;
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.journaltop{
+  display: inline-block;
+  width: 100%;
+  padding-bottom:15px;
+  border-bottom: 1px solid rgb(194, 194, 194);;
+}
+.journaltitlebox{
+  float: left;
+  text-align: left;
+  margin-right: 20px;
+  width: calc(100% - 270px);
+}
+.journaltitle{
+  text-align: left;
+  color: black;
+}
+.journalsubtitle{
+  text-align: left;
+  width: auto;
+  margin-left:10px;
+  color: #3D6B7E;
+}
+.journalpostdate{
+  text-align: left;
+  width: auto;
+  margin-left:10px;
+  color: rgb(133, 133, 133);
+}
+
+.journalimage{
+  float: left;
+  width:250px;
+  height:170px;
+}
+.journalimage2{
+  display: none;
+  width:100%;
+  height:250px;
+}
+.journalmessage{
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  padding:15px;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.journallinke{
+  padding-top: 20px;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+}
+.journalbutton{
+  background-color: #3D6B7E;
+  color: white;
+  border: 1px solid #3D6B7E;
+}
+.journalbutton:hover{
+  background-color: white;
+  color: #3D6B7E;
+  border: 1px solid #3D6B7E;
+}
+
+@media screen and (max-width: 700px) {
+  .journalimage2{
+    display: inline-block;
+  }
+  .journalimage{
+    display: none;
+  }
+  .journaltitlebox{
+    text-align: left;
+    display: block;
+    margin-right: 0px;
+    width: 100%;
+  }
+  h2{
+    font-size: 30px;
+  }
+  
+}
